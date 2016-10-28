@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Students</string>
+    <string name="s1">Иван Иванов</string>
+    <string name="s2">Габриела Стефанова</string>
+    <string name="s3">Димитър Димитров</string>
+    <string name="s4">Александра Петрова</string>
+</resources>

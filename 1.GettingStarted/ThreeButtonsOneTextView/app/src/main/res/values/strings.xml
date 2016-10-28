@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Three Buttons One TextView</string>
+    <string name="button1">Едно</string>
+    <string name="button2">Две</string>
+    <string name="button3">Три</string>
+    <string name="text_view">Натисни бутон</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TOP 10 SONGS</string>
+    <string name="vertical_ellipsis">&#8942;</string>
+    <string name="explicit">EXPLICIT</string>
+</resources>

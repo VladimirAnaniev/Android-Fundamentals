@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Choose destination</string>
+    <string name="bulgaria">Bulgaria</string>
+    <string name="germany">Germany</string>
+    <string name="italy">Italy</string>
+    <string name="france">France</string>
+    <string name="china">China</string>
+    <string name="spain">Spain</string>
+    <string name="egypt">Egypt</string>
+    <string name="turkey">Turkey</string>
+    <string name="greece">Greece</string>
+    <string name="brazil">Brazil</string>
+    <string name="flag">Flag</string>
+</resources>

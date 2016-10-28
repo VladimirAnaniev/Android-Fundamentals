@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vladimir.students.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/s1"
+        android:id="@+id/Student1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/s2"
+        android:id="@+id/Student2"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/Student1"
+        android:layout_alignLeft="@+id/Student3"
+        android:layout_alignStart="@+id/Student3"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/s3"
+        android:id="@+id/Student3"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/Student2"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/s4"
+        android:id="@+id/Student4"
+        android:layout_below="@+id/Student3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:onClick="onClick" />
+</RelativeLayout>

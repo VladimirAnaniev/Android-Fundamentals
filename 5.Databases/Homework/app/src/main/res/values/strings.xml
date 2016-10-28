@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Homework</string>
+    <string name="textview_text">number of elements to create:</string>
+</resources>

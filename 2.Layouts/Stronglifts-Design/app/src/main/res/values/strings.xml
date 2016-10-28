@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Stronglifts Design</string>
+    <string name="squat">Squat</string>
+    <string name="bench">Bench Press</string>
+    <string name="row">Barbell Row</string>
+    <string name="congrats">Congrats!</string>
+    <string name="lift_next_time">Lift 100 Kg next time</string>
+    <string name="add">Add Exercise</string>
+    <string name="save">Save</string>
+    <string name="weight">Body Weight</string>
+    <string name="fail">Failure is part of the game!</string>
+    <string name="next_time_fail">Lift 80 Kg again next time. You\'ll get it!</string>
+    <string name="squat_weight"><u>5x5 97,5 Kg</u></string>
+    <string name="bench_weight"><u>5x5 80 Kg</u></string>
+    <string name="row_weight"><u>5x5 75 Kg</u></string>
+    <string name="body_weight"><u>80 Kg</u></string>
+    <string name="reps_1">1</string>
+    <string name="reps_2">2</string>
+    <string name="reps_3">3</string>
+    <string name="reps_4">4</string>
+    <string name="reps_5">5</string>
+</resources>

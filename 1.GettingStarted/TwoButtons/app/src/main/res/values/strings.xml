@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Two Buttons</string>
+    <string name="initial_value">0</string>
+</resources>

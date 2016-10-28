@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/song_background"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/Name"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/Author"
+        android:textColor="@color/subtitle"
+        android:paddingBottom="10dp"
+        android:textSize="12sp"
+        android:layout_below="@+id/Name"
+        android:layout_toRightOf="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/song_separator"
+        android:layout_below="@+id/Author"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/view"/>
+
+    <View
+        android:layout_width="3dp"
+        android:layout_height="3dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView3"
+        android:textColor="@color/subtitle"
+        android:layout_alignTop="@+id/Author"
+        android:layout_toRightOf="@+id/Author"
+        android:layout_toEndOf="@+id/Author"
+        android:background="@drawable/subtitle_dot"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginEnd="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/Album"
+        android:textColor="@color/subtitle"
+        android:paddingBottom="10dp"
+        android:layout_alignTop="@+id/Author"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/vertical_ellipsis"
+        android:id="@+id/textView5"
+        android:layout_alignTop="@+id/Name"
+        android:textSize="25sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/subtitle"
+        android:paddingTop="5dp"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/explicit"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/explicit_tag"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        android:padding="1dp"
+        android:textIsSelectable="true"
+        android:layout_margin="3dp"/>
+
+</RelativeLayout>
