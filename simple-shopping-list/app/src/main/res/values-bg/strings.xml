@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Списък за пазаруване</string>
+    <string name="action_settings">Настройки</string>
+    <string name="column_amount">Количество</string>
+    <string name="column_product_name">Име</string>
+    <string name="hint_product_amount">Количество</string>
+    <string name="hint_product_name">Продукт</string>
+    <string name="new_product">Нов продукт</string>
+    <string name="details_label">Детайли</string>
+    <string name="create_list">Създай списък</string>
+    <string name="new_shopping_list">Нов списък</string>
+    <string name="create">Създай</string>
+    <string name="cancel">Отмени</string>
+    <string name="shopping_list_title">Име на списъка</string>
+    <string name="facebook_app_id">675464095950001</string>
+    <string name="title_required">Името е задължително!</string>
+    <string name="edit">Редактирай</string>
+    <string name="edit_product">Редактиране на продукт</string>
+    <string name="share">Сподели</string>
+    <string name="list_name">Име</string>
+    <string name="edit_shopping_list">Rедактиране на списък</string>
+    <string name="login_canceled">Опита за вписване отменен.</string>
+    <string name="login_failed">Опита за вписване се провали.</string>
+    <string name="log_out">Отписване</string>
+    <string name="retry">Опитай пак</string>
+    <string name="undo">Отмени</string>
+    <string name="product_name_required">Въведете име на продукта!</string>
+    <string name="quantity_required">Въведете количество!</string>
+    <string name="get_products_failed">Не успяхме да заредим всички продукти! Проверете връзката си с интернет и опитайте пак.</string>
+    <string name="delete_product_failed">Изтриването на продукта се провали!</string>
+    <string name="update_product_failed">Обновяването на продукта се провали!</string>
+    <string name="create_product_failed">Създаването на продукта се провали!</string>
+    <string name="product_created">Продукта беше създаден!</string>
+    <string name="product_deleted">Продукта беше изтрит!</string>
+    <string name="shopping_list_deleted">Списъка беше изтрит!</string>
+    <string name="no_lists">Липсват списъци.</string>
+    <string name="get_lists_failed">Зареждането на списъците се провали. Проверете връзката си с интернет и опитайте пак.</string>
+    <string name="edit_successful">Редакцията беше успешна.</string>
+    <string name="edit_unsuccessful">Възникна шрпблем с редакцията.</string>
+    <string name="deletion_problem">Възникна проблем с изтриването.</string>
+    <string name="create_list_fail">Създаването на нов списък се провали!</string>
+    <string name="shopping_list_created">Списъка за пазаруване беше създаден.</string>
+    <string name="list_not_edited">Списъка не беше променен.</string>
+    <string name="values_not_changed">Стойнотсите не бяха променени.</string>
+</resources>
